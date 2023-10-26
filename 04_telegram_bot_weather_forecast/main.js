@@ -43,7 +43,7 @@ bot.on('message', (msg) =>{
             reply_markup: JSON.stringify({
               keyboard: [
                 ['3 hours interval'],
-                ['3 hours interval']
+                ['6 hours interval']
               ],
               resize_keyboard: true
             })
